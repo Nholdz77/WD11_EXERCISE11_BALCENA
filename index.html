@@ -11,17 +11,42 @@
     <title>Exercise 11</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
-        <div class="container-fluid d-flex align-items-start">
-            <img class="navbar-brand rounded-circle" src="/img/hero.jpg" width="50px" height="50px">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index2.html">Page 2</a>
+            </li>
+      </ul>
+     </div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-binoculars-fill"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container d-flex align-items-center">
+          <h4 class="text-dark">My Favorite Big Bikes</h4>
                 <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link" href="index2.html">Page 2</a>
+
             <form class="input-group" style="max-width:400px">
                 <input type="text" class="form-control">
-                <button class="btn btn-primary"><i class="bi bi-binoculars-fill"></i><a href="index2.html"></a></button>
+                <button class="btn btn-warning"><i class="bi bi-binoculars-fill"></i><a href="index2.html"></a></button>
             </form>  
         </div>
-    </nav>
+    </nav> -->
     
 <!-- end nav -->
 <div class="container">
@@ -60,24 +85,29 @@
 <br>
    
 <!-- end 2nd container -->
-    <div class="container">
-        <div class="row justify-content-evenly">
+<div class="container">
+    <div class="row justify-content-evenly">
             <div class="col-md-6">
                 <div class="card mb-3" style="max-width: 600px;">
                     <div class="row g-0">
-                    <div class="col-md-8">
+                      <div class="col-md-8">
                         <img src="/img/CB1100EX.png" class="img-fluid rounded-start" alt="...">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        <button type="button" class="btn btn-primary" 
+                          data-bs-toggle="modal" data-bs-target="#exampleModal1">
                             Honda CB1100EX
                         </button>
-                    </div>
-                    <div class="col-md-4">
+                      </div>
+
+                      <div class="col-md-4">
                         <div class="card-body">
-                        <h5 class="card-title">Honda CB1100EX</h5>
-                        <p class="card-text">This is a Honda Big Bike for your satisfaction you can ride up to the speed  250mph.</p></p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          <h5 class="card-title">Honda CB1100EX</h5>
+                          <p class="card-text">This is a Honda Big Bike 
+                            for your satisfaction you can 
+                            ride up to the speed  250mph.</p>
+                          <p class="card-text"><small class="text-muted">
+                            Last updated 3 mins ago</small></p>
                         </div>
-                    </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -86,16 +116,20 @@
                 <div class="card mb-3" style="max-width: 600px;">
                     <div class="row g-0">
                     <div class="col-md-8">
-                        <img src="/img/CBR1000R.png" class="img-fluid rounded-start" alt="...">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <img src="/img/CBR1000R.png" class="img-fluid rounded-start" alt="">
+                        <button type="button" class="btn btn-primary" 
+                          data-bs-toggle="modal" data-bs-target="#exampleModal2">
                             Honda CBR1000R
                         </button>
                     </div>
                     <div class="col-md-4">
                         <div class="card-body">
                         <h5 class="card-title"> Honda CBR1000R</h5>
-                        <p class="card-text">This is a Honda Big Bike for your satisfaction you can ride up to the speed  250mph.</p></p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text">This is a Honda Big Bike 
+                          for your satisfaction you can ride up to 
+                          the speed  250mph.</p>
+                        <p class="card-text"><small class="text-muted">
+                          Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                     </div>
@@ -107,15 +141,20 @@
                   <div class="row g-0">
                     <div class="col-md-8">
                         <img src="/img/CBR1000RR.png" class="img-fluid rounded-start" alt="...">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <button type="button" class="btn btn-primary" 
+                          data-bs-toggle="modal" data-bs-target="#exampleModal3">
                             Honda CBR1000RR
                         </button>
                     </div>
                     <div class="col-md-4">
                         <div class="card-body">
-                        <h5 class="card-title">Honda CBR1000RR</h5>
-                        <p class="card-text">This is a Honda Big Bike for your satisfaction you can ride up to the speed  350mph.</p></p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">Honda CBR1000RR</h5>
+                            <p class="card-text">This is a Honda Big Bike 
+                              for your satisfaction you can ride 
+                              up to the speed  350mph.
+                            </p>
+                            <p class="card-text"><small class="text-muted">
+                              Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                   </div>
@@ -126,27 +165,30 @@
                 <div class="card mb-3" style="max-width: 600px;">
                     <div class="row g-0">
                     <div class="col-md-8">
-                        <img src="/img/GTR1400.png" class="img-fluid rounded-start" alt="...">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                        <img src="/img/GTR1400.png" class="img-fluid rounded-start" alt="">
+                        <button type="button" class="btn btn-primary" 
+                          data-bs-toggle="modal" data-bs-target="#exampleModal4">
                             Honda GTR1400
                         </button>
                     </div>
                     <div class="col-md-4">
                         <div class="card-body">
                         <h5 class="card-title">Honda GTR1400</h5>
-                        <p class="card-text">This is a Honda Big Bike for your satisfaction you can ride up to the speed  250mph.</p>
+                        <p class="card-text">This is a Honda Big Bike 
+                          for your satisfaction you can ride 
+                          up to the speed  250mph.
+                        </p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+  
+    
 <!-- end 3rd container -->
 
-    <div class="container-fluid d-flex justify-content-evenly">
-        <div class="row">
+    
             <div class="col-md-6">
             
                     <div class="card mb-3" style="max-width: 600px;">
@@ -159,37 +201,42 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card-body">
-                            <h5 class="card-title">KAWASAKI KV1000</h5>
-                            <p class="card-text">This is a Kawasaki Big Bike for your satisfaction you can ride up to the speed of 250mph.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                  <h5 class="card-title">KAWASAKI KV1000</h5>
+                                  <p class="card-text">This is a Kawasaki Big Bike 
+                                    for your satisfaction you can ride up 
+                                    to the speed of 250mph.
+                                  </p>
+                                  <p class="card-text"><small class="text-muted">
+                                    Last updated 3 mins ago</small>
+                                  </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-6">
-                
+              <div class="col-md-6">
                     <div class="card mb-3" style="max-width: 600px;">
                         <div class="row g-0">
-                        <div class="col-md-8">
-                            <img src="/img/KZH2.png" class="img-fluid rounded-start" alt="...">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                          <div class="col-md-8">
+                              <img src="/img/KZH2.png" class="img-fluid rounded-start" alt="...">
+                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
                                 Kawasaki KZH2
                               </button>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card-body">
-                            <h5 class="card-title">Kawasaki KZH2</h5>
-                            <p class="card-text">This is a Kawasaki Big Bike for your satisfaction you can ride up to the speed of 250mph.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card-body">
+                              <h5 class="card-title">Kawasaki KZH2</h5>
+                              <p class="card-text">This is a Kawasaki Big Bike for your satisfaction you can ride up to the speed of 250mph.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
                         </div>
                     </div>
-            </div>
+              </div>
         </div>
     </div>
+  </div>
+</div>
 <!-- end 4th container             -->
 <!-- Button trigger modal -->
   
